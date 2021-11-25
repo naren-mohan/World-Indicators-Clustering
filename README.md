@@ -236,6 +236,8 @@ fig1
 #   labs(x="Birth Rate", y="GDP", color="Clusters", title="Birth Rate vs GDP")
   #theme(legend.title = "Clusters")
 ```
+![Birth Rate vs GDP](assets/plot1.png)
+
 Here, it can be observed that Birth Rate and GDP are inversely related. And the clusters divided can be observed to be as - (The order might differ with each successive runs)
 1. Lower GDP and Higher Birth Rate
 2. Higher GDP and Lower Birth Rate 
@@ -267,6 +269,9 @@ fig1
 #   labs(x="Health Exp/Capita", y="Infant Mortality Rate", color="Clusters")
 #   #theme(legend.title = "Clusters")
 ```
+
+![Health Exp/Capita vs Infant Mortality Rate](assets/plot2.png)
+
 As one would expect, Infant mortality rate and Health Expenditure Per capita is inversely proportional and again we observe 3 clusters - 
 1. High IMR and Low Health Expenditure per capita
 2. Moderate IMR and Moderate Health Expenditure per capita
@@ -299,6 +304,8 @@ fig1
 #   labs(x="Population Urban", y="GDP", color="Clusters")
 #   #theme(legend.title = "Clusters")
 ```
+![Population Urban vs GDP](assets/plot3.png)
+
 A positive trend can be observed between population living in the urban and GDP. The clusters divided can be observed as - 
 1. Lower population in the urban and Lower GDP
 2. Higher population in the urban and Higher GDP
